@@ -21,7 +21,7 @@ class SpicesController < ApplicationController
       spice.destroy
       head :no_content
     end
-  
+#   private route
     private
     
     def spice_params
